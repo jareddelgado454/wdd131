@@ -1,0 +1,258 @@
+/* =========================
+   GLOBAL STYLES
+========================= */
+
+:root {
+    --primary-red: #D91023;
+    --white: #ffffff;
+    --overlay-bg: rgba(255, 255, 255, 0.9);
+    --box-radius: 10px;
+    --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: var(--white);
+    overflow-x: hidden;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background: var(--primary-red);
+    text-align: center;
+    padding: 10px 10px;
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    box-shadow: var(--shadow);
+    z-index: 10;
+    position: relative;
+    flex-shrink: 0;
+    height: auto;
+    min-height: auto;
+}
+
+header h1 {
+    margin: 0;
+    padding: 0;
+    line-height: 1.2;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    position: relative;
+}
+
+@media (min-width: 900px) {
+    main {
+        overflow: hidden;
+    }
+}
+
+/* =========================
+   HERO IMAGE
+========================= */
+
+.hero {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.hero picture {
+    display: block;
+    width: 100%;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+    max-width: 100%;
+}
+
+@media (min-width: 900px) {
+    .hero {
+        height: calc(100vh - 100px);
+        width: 100%;
+        display: block;
+    }
+    
+    .hero picture {
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+    
+    .hero img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        display: block;
+    }
+}
+
+/* =========================
+   BOXES (DATA + WEATHER)
+========================= */
+
+.box {
+    background: var(--overlay-bg);
+    margin: 20px;
+    padding: 25px;
+    border-radius: var(--box-radius);
+    z-index: 2;
+    position: relative;
+    box-shadow: var(--shadow-lg);
+    backdrop-filter: blur(5px);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.box:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.box h2 {
+    background: var(--primary-red);
+    color: white;
+    margin: -25px -25px 20px -25px;
+    padding: 12px 18px;
+    border-top-left-radius: var(--box-radius);
+    border-top-right-radius: var(--box-radius);
+    font-size: 1.3rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+    line-height: 1.6;
+    font-size: 1rem;
+    color: #333;
+}
+
+ul li strong {
+    color: #1a1a1a;
+    font-weight: 600;
+}
+
+.box p {
+    margin: 10px 0;
+    line-height: 1.6;
+    font-size: 1rem;
+    color: #333;
+}
+
+.box p strong {
+    color: #1a1a1a;
+    font-weight: 600;
+}
+
+
+/* =========================
+   WEATHER DESKTOP ICON
+========================= */
+
+@media (min-width: 900px) {
+    .weather h2::after {
+        content: " ☁";
+        font-size: 1.2rem;
+        margin-left: 8px;
+    }
+}
+
+/* =========================
+   DESKTOP LAYOUT
+========================= */
+
+@media (min-width: 900px) {
+    body {
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr auto 1fr;
+        grid-template-rows: 1fr;
+        align-items: center;
+        position: relative;
+        height: 100%;
+        margin-top: 0;
+    }
+
+    .hero {
+        grid-column: 1 / 4;
+        grid-row: 1;
+        z-index: 1;
+        height: 100%;
+        width: 100%;
+        min-width: 100%;
+    }
+
+    .data {
+        grid-column: 1;
+        grid-row: 1;
+        margin-left: 50px;
+        max-width: 340px;
+        z-index: 2;
+        align-self: center;
+    }
+
+    .weather {
+        grid-column: 3;
+        grid-row: 1;
+        margin-right: 50px;
+        max-width: 320px;
+        z-index: 2;
+        align-self: center;
+    }
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+    background: var(--primary-red);
+    color: white;
+    text-align: center;
+    padding: 15px 25px;
+    font-size: 0.9rem;
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
+    flex-shrink: 0;
+    z-index: 10;
+    position: relative;
+}
+
+footer p {
+    margin: 4px 0;
+    line-height: 1.4;
+}
+
+@media (min-width: 900px) {
+    footer {
+        padding: 12px 25px;
+    }
+}
