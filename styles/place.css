@@ -174,16 +174,17 @@ ul li strong {
    WEATHER ICON
 ========================= */
 
-.weather-icon {
+.weather h2::after {
+    content: url('../images/weather.svg');
+    display: inline-block;
     width: 24px;
     height: 24px;
     vertical-align: middle;
     margin-left: 8px;
-    display: inline-block;
 }
 
 @media (min-width: 900px) {
-    .weather-icon {
+    .weather h2::after {
         width: 28px;
         height: 28px;
         margin-left: 10px;
