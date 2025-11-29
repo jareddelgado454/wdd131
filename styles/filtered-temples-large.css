@@ -1,0 +1,24 @@
+@media screen and (min-width: 700px) {
+
+    #hamburgerBtn {
+        display: none;
+    }
+
+    nav {
+        display: flex !important;
+        flex-direction: row;
+        gap: 1.5rem;
+        background: none;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .gallery {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+

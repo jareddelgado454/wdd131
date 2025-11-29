@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+        <!-- Standard WDD131 metadata -->
+        <meta name="description" content="A curated temple album showcasing historical and modern temples with images, captions, and responsive design created for WDD131.">
+        <meta name="author" content="Jared Delgado">
+    
+        <title>Temple Album – WDD131 – Jared Delgado</title>
+    
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    
+        <!-- CSS -->
+        <link rel="stylesheet" href="styles/filtered-temples.css">
+        <link rel="stylesheet" href="styles/filtered-temples-large.css">
+    
+        <!-- JS -->
+        <script defer src="scripts/filtered-temples.js"></script>
+    </head>
+    
+<body>
+
+    <header>
+        <h2>Temple Album</h2>
+
+        <button id="hamburgerBtn">☰</button>
+
+        <nav id="navMenu">
+            <a href="#" data-filter="all">Home</a>
+            <a href="#" data-filter="old">Old</a>
+            <a href="#" data-filter="new">New</a>
+            <a href="#" data-filter="large">Large</a>
+            <a href="#" data-filter="small">Small</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Temple Album</h1>
+
+        <section class="gallery">
+            <!-- Temple cards will be dynamically generated here -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> | Jared | WDD131</p>
+        <p>Last Modification: <span id="lastModified"></span></p>
+    </footer>
+
+</body>
+</html>
