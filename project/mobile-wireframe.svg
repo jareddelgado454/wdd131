@@ -1,0 +1,51 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<svg width="390" height="844" viewBox="0 0 390 844" xmlns="http://www.w3.org/2000/svg" style="font-family: Arial, Helvetica, sans-serif;">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#FFFFFF" rx="20"></rect>
+
+  <!-- Top bar / status -->
+  <rect x="12" y="12" width="366" height="56" rx="10" fill="#F3F6FB" stroke="#E6EEF9"></rect>
+  <text x="30" y="46" fill="#1F3A93" font-size="18" font-weight="700">AutoFix</text>
+  <rect x="300" y="20" width="60" height="36" rx="8" fill="#0056b3"></rect>
+  <text x="318" y="44" fill="#fff" font-size="12" font-weight="600">Book</text>
+
+  <!-- Hero / banner -->
+  <rect x="12" y="84" width="366" height="140" rx="12" fill="#F5F9FF" stroke="#E0EDF9"></rect>
+  <text x="30" y="120" fill="#0B2A66" font-size="16" font-weight="700">Mobile Mechanic at Your Door</text>
+  <text x="30" y="142" fill="#333333" font-size="12">Fast service, honest pricing, and expert mechanics.</text>
+  <rect x="30" y="160" width="120" height="36" rx="8" fill="#f4b400"></rect>
+  <text x="50" y="185" fill="#111" font-size="12" font-weight="600">Get Quote</text>
+
+  <!-- Services list (cards) -->
+  <text x="24" y="246" fill="#1F3A93" font-size="14" font-weight="700">Services</text>
+
+  <g transform="translate(12,260)">
+    <rect x="0" y="0" width="366" height="72" rx="10" fill="#FFFFFF" stroke="#E6EEF9"></rect>
+    <text x="16" y="28" fill="#0B2A66" font-size="13" font-weight="700">Oil change</text>
+    <text x="16" y="46" fill="#666" font-size="12">Quick oil replacement and filter change.</text>
+  </g>
+
+  <g transform="translate(12,340)">
+    <rect x="0" y="0" width="366" height="72" rx="10" fill="#FFFFFF" stroke="#E6EEF9"></rect>
+    <text x="16" y="28" fill="#0B2A66" font-size="13" font-weight="700">Battery replacement</text>
+    <text x="16" y="46" fill="#666" font-size="12">On-site check and battery swap.</text>
+  </g>
+
+  <!-- CTA strip -->
+  <rect x="12" y="428" width="366" height="64" rx="12" fill="#0056b3"></rect>
+  <text x="36" y="468" fill="#fff" font-size="16" font-weight="700">Schedule a Visit</text>
+
+  <!-- Testimonials -->
+  <text x="24" y="520" fill="#1F3A93" font-size="14" font-weight="700">What customers say</text>
+  <rect x="12" y="540" width="366" height="72" rx="10" fill="#fff" stroke="#E6EEF9"></rect>
+  <text x="28" y="570" fill="#333" font-size="12">"Quick and professional. Saved me time!" - Maria</text>
+
+  <!-- Footer mini -->
+  <rect x="12" y="624" width="366" height="96" rx="12" fill="#F9FBFF" stroke="#E6EEF9"></rect>
+  <text x="30" y="660" fill="#666" font-size="12">Contact • FAQ • About</text>
+
+  <!-- Notes / overlay labels to indicate elements (Figma-style) -->
+  <g fill="#000" opacity="0.45" font-size="10">
+    <text x="12" y="820">Mobile wireframe — viewport 390×844 • Header, Hero, Services, CTA, Testimonials, Footer</text>
+  </g>
+</svg>

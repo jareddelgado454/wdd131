@@ -1,0 +1,63 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<svg width="1200" height="700" viewBox="0 0 1200 700" xmlns="http://www.w3.org/2000/svg" style="font-family: Arial, Helvetica, sans-serif;">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#FFFFFF"></rect>
+
+  <!-- Header -->
+  <rect x="24" y="20" width="1152" height="84" rx="10" fill="#F3F6FB" stroke="#E6EEF9"></rect>
+  <text x="48" y="68" fill="#1F3A93" font-size="26" font-weight="700">AutoFix Solutions</text>
+
+  <!-- Navigation -->
+  <text x="420" y="60" fill="#333" font-size="16">Home</text>
+  <text x="480" y="60" fill="#333" font-size="16">Services</text>
+  <text x="560" y="60" fill="#333" font-size="16">How it works</text>
+  <text x="680" y="60" fill="#333" font-size="16">Pricing</text>
+  <rect x="980" y="32" width="160" height="40" rx="8" fill="#f4b400"></rect>
+  <text x="1010" y="58" fill="#111" font-size="14" font-weight="700">Book a Mechanic</text>
+
+  <!-- Hero area -->
+  <rect x="24" y="120" width="740" height="260" rx="12" fill="#F5F9FF" stroke="#E0EDF9"></rect>
+  <text x="48" y="170" fill="#0B2A66" font-size="28" font-weight="700">We bring the garage to you</text>
+  <text x="48" y="205" fill="#333" font-size="16">Book trusted mechanics for quick repairs at your location.</text>
+  <rect x="48" y="240" width="160" height="42" rx="8" fill="#0056b3"></rect>
+  <text x="86" y="270" fill="#fff" font-size="14" font-weight="700">Get a Quote</text>
+
+  <!-- Right column: booking form -->
+  <rect x="780" y="140" width="396" height="220" rx="10" fill="#FFFFFF" stroke="#E6EEF9"></rect>
+  <text x="808" y="178" fill="#0B2A66" font-size="18" font-weight="700">Quick Booking</text>
+  <rect x="792" y="196" width="360" height="36" rx="6" fill="#F9FBFF" stroke="#E0EDF9"></rect>
+  <text x="804" y="221" fill="#777" font-size="12">Name</text>
+  <rect x="792" y="238" width="360" height="36" rx="6" fill="#F9FBFF" stroke="#E0EDF9"></rect>
+  <text x="804" y="263" fill="#777" font-size="12">Phone</text>
+  <rect x="792" y="280" width="360" height="36" rx="6" fill="#f4b400"></rect>
+
+  <!-- Services grid -->
+  <text x="48" y="410" fill="#1F3A93" font-size="20" font-weight="700">Featured Services</text>
+  <g transform="translate(48,430)">
+    <rect x="0" y="0" width="220" height="120" rx="8" fill="#fff" stroke="#E6EEF9"></rect>
+    <text x="16" y="30" fill="#0B2A66" font-size="14" font-weight="700">Diagnostics</text>
+    <text x="16" y="54" fill="#666" font-size="12">Engine and system checks</text>
+
+    <rect x="240" y="0" width="220" height="120" rx="8" fill="#fff" stroke="#E6EEF9"></rect>
+    <text x="256" y="30" fill="#0B2A66" font-size="14" font-weight="700">Brake Repair</text>
+    <text x="256" y="54" fill="#666" font-size="12">Pads, rotors, and system checks</text>
+
+    <rect x="480" y="0" width="220" height="120" rx="8" fill="#fff" stroke="#E6EEF9"></rect>
+    <text x="496" y="30" fill="#0B2A66" font-size="14" font-weight="700">Battery</text>
+    <text x="496" y="54" fill="#666" font-size="12">Test and on-site replacement</text>
+  </g>
+
+  <!-- Testimonials / trust -->
+  <rect x="780" y="380" width="396" height="140" rx="10" fill="#F9FBFF" stroke="#E6EEF9"></rect>
+  <text x="804" y="412" fill="#0B2A66" font-size="16" font-weight="700">What customers say</text>
+  <text x="804" y="440" fill="#333" font-size="13">"Very professional and fast. Highly recommended." - Marco</text>
+
+  <!-- Footer -->
+  <rect x="24" y="560" width="1152" height="120" rx="8" fill="#F3F6FB" stroke="#E6EEF9"></rect>
+  <text x="48" y="600" fill="#666" font-size="13">© AutoFix Solutions • Contact • Privacy • Terms</text>
+
+  <!-- Annotations -->
+  <g fill="#000" opacity="0.45" font-size="12">
+    <text x="24" y="688">Desktop wireframe — header + hero left, booking right, services grid, testimonials, footer</text>
+  </g>
+</svg>
