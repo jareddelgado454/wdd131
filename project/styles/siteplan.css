@@ -1,0 +1,19 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #F3F6FB;
+    color: #0B2A66;
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    color: #0056B3;
+  }
+  
+  .section {
+    background: white;
+    padding: 16px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    border-left: 6px solid #F4B400;
+  }
+  
